@@ -1,5 +1,4 @@
-$(document).ready(function() {
-    const words = [
+const words = [
         { word: "always", translation: "завжди" },
         { word: "never", translation: "ніколи" },
         { word: "sometimes", translation: "інколи" },
@@ -58,7 +57,6 @@ $(document).ready(function() {
 
     updateStats();
     showWord();
-});
 
 function checkAnswer() {
         const userTranslation = $("#translation").val().trim().toLowerCase();
